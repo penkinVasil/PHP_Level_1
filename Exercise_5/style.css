@@ -1,0 +1,23 @@
+.mainMenu li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+.mainMenu li a {
+	text-decoration: none;
+}
+
+.mainMenu {
+	padding: 5px;
+}
+.imgMain {
+	width: 250px;
+	height: 250px;
+	outline: 1px solid black;
+	text-align: center;
+	display: table-cell;
+    vertical-align: middle;
+	opacity: 0.5;
+}

@@ -1,0 +1,35 @@
+.mainMenu li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 15px;
+	font-size: 20px;
+}
+
+.mainMenu li a {
+	text-decoration: none;
+}
+
+.mainMenu {
+	padding: 2px;
+}
+.imgMain {
+	width: 250px;
+	height: 250px;
+	outline: 1px solid black;
+	text-align: center;
+	display: table-cell;
+    vertical-align: middle;
+	opacity: 0.5;
+}
+
+.subMenu {
+	padding-top: 10px;
+	padding-left: 0;
+	width: 15%;
+}
+
+.subMenu li{
+	font-size: 14px;
+	display: block;
+	margin-bottom: 10px;
+}

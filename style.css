@@ -1,0 +1,47 @@
+body {
+	background: url('img/body.jpg');
+	background-size:cover;
+}
+
+h2 {
+	text-align: center;
+	color: white;
+}
+
+#gallery {
+	background: url('img/imgBackgr.jpg');
+	background-size: cover;
+	border-radius: 10px;
+	outline: 1px solid white;
+	box-shadow: 0 0 10px 0 white;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	width: 80%;
+	margin: 10px auto;
+	padding: 20px;
+}
+
+#gallery a {
+	margin: 20px;
+}
+
+.img {
+	outline: 2px solid white;
+}
+
+#gallery a:hover {
+	box-shadow: 0 0 20px 2px white;
+}
+
+.userImg {
+	background: #f3f9fd;
+	background: -moz-linear-gradient(-45deg, #f3f9fd 0%, #f3f9fd 100%);
+	background: -webkit-linear-gradient(-45deg, #f3f9fd 0%,#f3f9fd 100%);
+	background: linear-gradient(135deg, #f3f9fd 0%,#f3f9fd 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f9fd', endColorstr='#f3f9fd',GradientType=1 );
+	outline: 1px solid black;
+	width: 300px;
+	height: 20px;
+	margin: 0 auto;
+	padding: 5px;
